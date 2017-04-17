@@ -21,6 +21,8 @@ code .
 
 >**Tip:** We have instructions for Mac users in our [Setup](/docs/setup/mac.md) topic that enable you to start VS Code from within a terminal.  We add the VS Code executable to the `PATH` environment variable on Windows and Linux automatically during installation.
 
+> **Tip:** the `Code.exe` binary will attach to the parent command prompt window on Windows. To launch Code from a command line environment on Windows you should use use the `bin\code.cmd` batch file located in Code installation folder. This is the path that can be optionally added to the `PATH` environment during installation.
+
 Sometimes you will want to open or create a file. If the specified files does not exist, VS Code will create them for you:
 
 ```
